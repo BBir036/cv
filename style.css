@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    background-color: lightgrey;
+}
+
+.background{
+    width: 100%;
+    height: 400px;
+    background-image: url(2069455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    color: goldenrod;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 60%;
+    gap: 35px;
+    color: black;
+    margin: auto;
+    margin-left: 250px;
+    padding-left: 35px;
+}
+a{
+    color: black;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.shortbio{
+    height: 250px;
+    width: 60%;
+    display: flex;
+    gap: 50px;
+    margin-top: -180px;
+    margin-left: 250px;
+    padding: 20px;
+    background-color: white;
+}
+button{
+    background-color: lightyellow;
+    width: 100px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.pinfo{
+    display: flex;
+    gap: 50px;
+}
+.value{
+    font-size: larger;
+}
+#sub{
+    font-size: small;
+}
+#about{
+    height: 200px;
+    width: 60%;
+    margin-left: 250px;
+    padding: 50px 20px;
+    background-color: white;
+}
+h2{
+    font-family: cursive;
+    color: green;
+}
+#skills, #ex, #edu, #ach, #contact{
+    height: 200px;
+    width: 60%;
+    margin-left: 250px;
+    padding: 50px 20px;
+    background-color: white;
+}
+.points{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 5px solid green;
+    line-height: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+#contact{
+    height: 380px;
+}
+#exception{
+    text-align: justify;
+    margin-left: 50px;
+    width: 500px;
+    line-height: 20px;
+}
+#b{
+    margin-left: 40px;
+}
+footer{
+    background-color: white;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
